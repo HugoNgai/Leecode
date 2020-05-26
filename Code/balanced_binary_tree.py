@@ -35,6 +35,9 @@ class Solution:
 
 
 class Solution:
+    """
+    自顶向下，O(nlogn)
+    """
     def height(self, root):
         if not root:
             return 0
